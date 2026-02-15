@@ -1,7 +1,7 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher
-from aiogram.client.default import DefaultBotProperties
+from aiogram.client.bot import DefaultBotProperties  # Исправленный импорт
 from aiogram.enums import ParseMode
 from aiogram.types import Message
 
